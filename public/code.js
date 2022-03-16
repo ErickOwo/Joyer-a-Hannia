@@ -52,7 +52,7 @@ const createHTMLCode = (img, product, type, price, code, size, index)=>{
     codeProduct.classList.add("code");
     sizeProduct.classList.add("size");
 
-    image.setAttribute("src","images/"+img);
+    image.setAttribute("src",img);
     nameProduct.textContent = product;
     typeProduct.textContent = type;
     priceProduct.textContent = "Q. " + price;
